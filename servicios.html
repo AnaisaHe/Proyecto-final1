@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <!-- Fuente elegante desde Google Fonts -->
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nuestros Servicios</title>
+    <link rel="stylesheet" href="mystyle.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+
+    <!-- Encabezado -->
+    <header class="header">
+        <div class="overlay">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9kHFFaNPzDZblx38NWPnZdnsCVCuBW_zodA&s" alt="Logo de la Agencia" class="about-logo">
+            <h1>Nuestros Servicios</h1>
+            <p>Experiencias únicas con la mejor tecnología y logística en eventos.</p>
+        </div>
+    </header>
+
+    <!-- Barra de Navegación -->
+    <nav class="navbar">
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="sobrenosotros.html">Sobre Nosotros</a></li>
+            <li><a href="servicios.html">Servicios</a></li>
+            <li><a href="galeria.html">Galería</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <!-- Sección de Servicios -->
+    <section class="services-section">
+        <h2>¿Qué Ofrecemos?</h2>
+        <p>Desde eventos corporativos hasta conciertos, brindamos soluciones innovadoras en producción y tecnología audiovisual.</p>
+        <div class="services-grid">
+            <div class="service">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTq-PHZbD45gBFXedZPc4k8KdZQQxiTp3ucIA&s" alt="Sonido Profesional">
+                <h3>Sonido Profesional</h3>
+                <p>Audio de alta calidad para eventos de cualquier tamaño.</p>
+            </div>
+            <div class="service">
+                <img src="https://topdancefloor.com/wp-content/uploads/2024/07/LED-Display.jpg" alt="Pantallas LED">
+                <h3>Pantallas LED</h3>
+                <p>Displays de última generación para impacto visual.</p>
+            </div>
+            <div class="service">
+                <img src="https://www.eventoplus.com/wp-content/uploads/eventoplus/imgsxml/galerias/articulos/4195/big-renderseventos818-1024x590.png" alt="Escenografías">
+                <h3>Escenografías</h3>
+                <p>Diseños creativos y modernos para eventos inolvidables.</p>
+            </div>
+            <div class="service">
+                <img src="https://rentadeiluminacion.com/wp-content/uploads/2020/11/Diferentes-tipos-de-iluminacion-de-eventos-para-su-evento.png" alt="Iluminación">
+                <h3>Iluminación</h3>
+                <p>Ambientes únicos con tecnología de iluminación avanzada.</p>
+            </div>
+        </div>
+    </section>
+
+   <!-- Sección Cotización Mejorada -->
+<section class="quote-section">
+    <h2>Solicita una Cotización</h2>
+    <p>Completa el formulario y nuestro equipo se pondrá en contacto contigo lo antes posible.</p>
+
+    <div class="quote-container">
+        <form id="quote-form" class="quote-form">
+            <div class="form-group">
+                <div class="form-field">
+                    <label for="nombre">Nombre</label>
+                    <input type="text" name="nombre" id="nombre" placeholder="Tu nombre completo" required>
+                </div>
+                <div class="form-field">
+                    <label for="email">Correo electrónico</label>
+                    <input type="email" name="email" id="email" placeholder="ejemplo@correo.com" required>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <div class="form-field">
+                    <label for="telefono">Teléfono</label>
+                    <input type="tel" name="telefono" id="telefono" placeholder="Ej. 664-123-4567" required>
+                </div>
+                <div class="form-field">
+                    <label for="servicio">Servicio deseado</label>
+                    <select name="servicio" id="servicio" required>
+                        <option value="">Selecciona una opción</option>
+                        <option value="Sonido Profesional">Sonido Profesional</option>
+                        <option value="Pantallas LED">Pantallas LED</option>
+                        <option value="Escenografías">Escenografías</option>
+                        <option value="Iluminación">Iluminación</option>
+                        <option value="Otro">Otro</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="form-field full-width">
+                <label for="mensaje">Detalles del evento</label>
+                <textarea name="mensaje" id="mensaje" rows="5" placeholder="Describe tu evento, fecha, lugar, número de asistentes, etc." required></textarea>
+            </div>
+
+            <button type="submit" class="btn">Enviar Cotización</button>
+            <p id="confirmation-message">¡Gracias por tu interés! Te contactaremos pronto.</p>
+        </form>
+    </div>
+</section>
+
+    <!-- Pie de Página -->
+    <footer>
+        <p>&copy; 2025 Agencia de Proyectos. Todos los derechos reservados.</p>
+    </footer>
+
+</body>
+</html>
